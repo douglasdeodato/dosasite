@@ -1,0 +1,166 @@
+body{
+	background: url("../images/bg.png")
+}
+
+#title {
+	cursor:pointer;
+}
+
+.title_menu{
+	cursor:pointer;
+	list-style:none;
+  background: #eee;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#e2e2e2));
+  background: -moz-linear-gradient(top,  #eee,  #e2e2e2);
+  box-shadow: inset 1px 1px 0 #f5f5f5;	
+	background-image: -webkit-linear-gradient(#048F4E, #048F4E);
+	background-image: -moz-linear-gradient(#048F4E, #048F4E);
+	background-image: -webkit-linear-gradient(#048F4E, #048F4E);
+	background-image: -moz-linear-gradient(#048F4E, #048F4E);
+	box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+#title{
+  -moz-box-shadow: 0px 5px 8px #5c5b5c;
+  -webkit-box-shadow: 0px 5px 8px #5c5b5c;
+  -webkit-border-radius-bottomright:10px;
+  -webkit-border-radius-bottomleft:10px;	
+	background-image: -webkit-linear-gradient(#048F4E, #048F4E);
+	background-image: -moz-linear-gradient(#048F4E, #048F4E);
+	background-image: -webkit-linear-gradient(#048F4E, #048F4E);
+	background-image: -moz-linear-gradient(#048F4E, #048F4E);
+	box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);	
+}
+
+
+
+#dialog{
+	width:300px;
+	height:200px;
+}
+
+#container .grafico{
+ 	position:absolute;
+	top:150px;
+	left:600px;
+	z-index: 1;
+  -moz-box-shadow: 0px 10px 20px #5c5b5c;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 20px #5c5b5c;
+  border:solid 1px #086117;
+  cursor:move;
+	width:295px;
+	height:381px;
+  background-color: #ffffff;
+}
+
+#slide_menu{
+	z-index: 2;
+  border-top:none;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  border-right:solid 4px #04512D;
+  border-left:solid 4px #04512D;
+  border-bottom:solid 4px #04512D;
+  margin-top: -3px;
+  position:absolute;
+  padding:10px;
+  left:48%;
+  -moz-box-shadow: 0px 6px 7px 1px #5c5b5c;
+  -webkit-box-shadow: 0px 6px 7px 1px #5c5b5c;
+  text-align:center;
+	border-radius:0px 0px 45px 45px;
+	background-image: -webkit-linear-gradient(#048F4E, #84E370);
+	background-image: -moz-linear-gradient(#048F4E, #84E370);
+	
+	display:none;
+	cursor:pointer;
+}
+
+#linha{
+	width:100%;
+	border-bottom:solid 3px #086117;
+	margin-top:-10px;
+}
+
+#menu {
+  vertical-align: middle;
+}
+
+
+#menu #novo_grafico{
+	background-image: -moz-linear-gradient(#048F4E, #84E370);
+	background-image: -webkit-linear-gradient(#048F4E, #84E370);
+  vertical-align: middle;
+}
+
+.barra_caixa_grafico{
+	vertical-align:right;
+  border: 2px #000000;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright:11px;
+  -moz-border-radius-bottomleft:0px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-top-left-radius:10px;
+  -webkit-border-top-right-radius:11px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-top-left-radius:10px;
+  border-top-right-radius:11px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+	background-image: -moz-linear-gradient(#048F4E, #84E370);
+	background-image: -webkit-linear-gradient(#048F4E, #84E370);
+	cursor:pointer;
+}
+
+.reload {
+ 	position:relative;		
+	z-index:10;	
+	padding-top:5px;
+	padding-right:5px;
+	cursor:pointer;
+}
+
+.close {
+ 	position:relative;		
+	z-index:10;	
+	padding-top:5px;
+	padding-right:5px;
+	cursor:pointer;
+}
+
+.barra_verde{
+	height:25px;
+ 	position:relative;	
+	top:-27px;
+	z-index:1;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright:11px;
+  -moz-border-radius-bottomleft:0px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-top-left-radius:10px;
+  -webkit-border-top-right-radius:11px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-top-left-radius:10px;
+  border-top-right-radius:11px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;	
+	background-image: -moz-linear-gradient(#048F4E, #84E370);
+	background-image: -webkit-linear-gradient(#048F4E, #84E370);
+  vertical-align: middle;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+
+}
+
