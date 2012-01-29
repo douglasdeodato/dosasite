@@ -1,10 +1,92 @@
-body{
-	background: url("../images/bg.png")
+/**
+ *GENERAL
+ */
+* {
+	margin:0;
+	padding:0;
 }
 
-#title {
-	cursor:pointer;
+#page {
+	margin: 0  auto;
+	width:950px;
 }
+
+body{
+	background: url("../images/bg.png");
+	padding:50px 15px 0 15px;
+}
+
+/**
+* HEADER MAIN
+**/
+
+#leoncio {
+	padding:1px 15px 0 15px;	
+}
+
+header.main {
+	text-align:center;
+}
+
+.about {
+	color:#c38728;
+	font:bold 72px sans-serif;
+	text-align:center;
+}
+
+/**
+* BOOKSTYLE
+**/
+
+#bookstyle {
+	margin-top:40px;
+	background-image: url("../images/book.jpg");
+	height:600px;	
+}
+
+#page1 {
+	clear:both;
+	width:420px;
+	float:left;	
+	margin:80px 50px ;
+	text-align:justify;
+}
+
+#page2 {
+	width:420px;
+	float:left;	
+	margin:80px -20px ;	
+	text-align:justify;	
+}
+
+#social_networks {
+/*  background:#c99c51;*/
+	background:-moz-linear-gradient(80% 77% 94deg, #c6994d, #f7c26a 55%);
+	border:1px solid #c0882e;
+	box-shadow: 1px 10px 5px #cec6ad;		
+	float:left;
+	height:100px;
+	position:absolute;
+	-webkit-transform: rotate(40deg) scale(1) skew(1deg) translate(0px);	
+	-moz-transform: rotate(40deg) scale(1) skew(1deg) translate(0px);	
+	right:-90px;
+	width:500px;
+}
+
+#social_networks #dashed {	
+  background:transparent;
+	border:2px dashed #c0882e;
+	float:left;
+	height:88px;
+	position:absolute;
+	-webkit-transform: rotate(180deg) scale(1) skew(1deg) translate(0px);	
+	-moz-transform: rotate(180deg) scale(1) skew(1deg) translate(0px);	
+	right:-20px;
+	bottom:4px;
+	width:500px;
+}
+
+
 
 
 
