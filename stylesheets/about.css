@@ -11,6 +11,13 @@
 	width:950px;
 }
 
+html {
+	overflow:-moz-scrollbars-vertical; 
+	overflow-x:hidden;  
+	height:100%; 
+	background-color:#fff;
+	}
+
 body{
 	background: url("../images/bg.png");
 	padding:50px 15px 0 15px;
